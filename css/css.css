@@ -25,7 +25,8 @@ opc 1
 *{
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
-    background-color: #f2f2f2;
+    background-color: #ECECEC;
+        text-decoration: none;
 }
 
 .pages-container button{
@@ -67,6 +68,7 @@ header .pages-container{
     background-color: #004445;
     width: 20%;
     text-align: center;
+    transition: 0.5s;
 }
 .paquetes{
     color: #F2F2F2;
@@ -76,6 +78,7 @@ header .pages-container{
     background-color: #004445;
     width: 20%;
     text-align: center;
+    transition: 0.5s;
 }
 .contacto{
     color: #F2F2F2;
@@ -85,6 +88,7 @@ header .pages-container{
     background-color: #004445;
     width: 20%;
     text-align: center;
+    transition: 0.5s;
 }
 .acerca{
     color: #F2F2F2;
@@ -94,10 +98,40 @@ header .pages-container{
     background-color: #004445;
     width: 20%;
     text-align: center;
+    transition: 0.5s;
 }
 
 
 a#active{
     background-color: #50808E;
     color:#D6F8D6;
+}
+
+.logoh1{
+    background-color: #07575B;
+    color: #F2F2F2;
+    text-align: center;
+    letter-spacing: 0.5em;
+    transition: 0.5s;
+}
+
+header .home:hover{
+    background-color: #F7D68E;
+    color: #004445;
+    transition: 0.5s;
+}
+header .paquetes:hover{
+    background-color: #F7D68E;
+    color: #004445;
+    transition: 0.5s;
+}
+header .contacto:hover{
+    background-color: #F7D68E;
+    color: #004445;
+    transition: 0.5s;
+}
+header .acerca:hover{
+    background-color: #F7D68E;
+    color: #004445;
+    transition: 0.5s;
 }
