@@ -1,3 +1,103 @@
-body{
-    
+/*
+Paleta
+
+
+extras
+------------------
+1. Fondo: #1A374D
+2. Encabezado y pies de página: #2B3D59
+3. Secciones principales: #8B9DAF
+4. Secciones secundarias: #C7D2DC
+5. Texto principal: #0B1A2A
+6. Botones de navegación: #F7D68E
+7. Títulos y subtítulos: #56B3FA
+-----------------------
+
+opc 1
+1. #003B46 (dark blue)
+2. #07575B (midnight blue)
+3. #021C1E (deep teal)
+4. #004445 (dark green)
+5. #324851 (mocha)
+6. Botones de navegación: #F7D68E
+*/
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.pages-container button{
+    border: 0px;
+    text-decoration: none;
+    background: none;
+    color: #F2F2F2;
+    font-weight: 700;
+}
+
+.top-head header{
+    background-color: #07575B;
+    width: 100%;
+    padding: 40px;
+}
+
+
+
+
+
+header .pages-container{
+    background-color: #004445;
+    width:  45%;
+    float: right;
+}
+
+
+.pages{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+
+.home{
+    color: #F2F2F2;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: #004445;
+    width: 20%;
+    text-align: center;
+}
+.paquetes{
+    color: #F2F2F2;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: #004445;
+    width: 20%;
+    text-align: center;
+}
+.contacto{
+    color: #F2F2F2;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: #004445;
+    width: 20%;
+    text-align: center;
+}
+.acerca{
+    color: #F2F2F2;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: #004445;
+    width: 20%;
+    text-align: center;
+}
+
+
+a#active{
+    background-color: #50808E;
+    color:#D6F8D6;
 }
