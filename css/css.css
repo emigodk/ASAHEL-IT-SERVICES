@@ -22,11 +22,20 @@ opc 1   ------------------------- USADO en el header
 6. Botones de navegación: #F7D68E
 */
 
+@font-face{
+    font-family: "sbfont";
+    src: url(https://www.starbucks.com.mx/static/fonts/SoDoSans-Bold.woff);
+}
+
 *{
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
-    background-color: #ECECEC;
+    background-color: #F9F9F9;
         text-decoration: none;
+}
+
+body{
+    background-color: F9F9F9;
 }
 
 .pages-container button{
@@ -42,9 +51,6 @@ opc 1   ------------------------- USADO en el header
     width: 100%;
     padding: 40px;
 }
-
-
-
 
 
 header .pages-container{
@@ -134,4 +140,73 @@ header .acerca:hover{
     background-color: #F7D68E;
     color: #004445;
     transition: 0.5s;
+}
+
+/* Primera parte */
+.home-container{
+    border: 0px solid black;
+    border-radius: 16px;
+    width: 45%;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) ;
+    margin-bottom: 20px;
+}
+
+
+.main-home-container{
+    padding: 20px;
+    background-image: url(https://cdn.discordapp.com/attachments/1231410669476118648/1244135092553650270/240_F_804510977_AAZl4yz9RCa6nHfLCawUZqXA8IMMbgpf.png?ex=66540298&is=6652b118&hm=801e9a9fbc359847fabe5138a4356872f740193c1024ff8e168de416aff28fe1&);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-container span{
+    color: #0070FF ;
+    background-color: #F9F9F9;
+}
+.home-container h1{
+    padding: 29px;
+    color: #ffffff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 100) ;
+    background-color: #F9F9F9;
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+#azul{
+    background-color: #F9F9F9;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+}
+
+#naranja{
+    background-color: #F9F9F9;
+    font-size: 30px;
+    padding: 10px;
+    
+}
+
+#problem{
+    background-color: #F9F9F9;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+.asd{
+    background-color: #004445;
+    color: #F9F9F9;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+.asd p{
+    background-color: #004445;
+    color: #F9F9F9;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.asd i{
+    text-decoration: none;
 }
