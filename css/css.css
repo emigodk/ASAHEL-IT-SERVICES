@@ -22,20 +22,15 @@ opc 1   ------------------------- USADO en el header
 6. Botones de navegación: #F7D68E
 */
 
-@font-face{
-    font-family: "sbfont";
-    src: url(https://www.starbucks.com.mx/static/fonts/SoDoSans-Bold.woff);
-}
 
 *{
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
-    background-color: #F9F9F9;
-        text-decoration: none;
+    text-decoration: none;
 }
 
 body{
-    background-color: F9F9F9;
+    background-color: #F9F9F9;
 }
 
 .pages-container button{
@@ -71,7 +66,6 @@ header .pages-container{
     text-decoration: none;
     float: left;
     padding: 10px;
-    background-color: #004445;
     width: 20%;
     text-align: center;
     transition: 0.5s;
@@ -81,7 +75,6 @@ header .pages-container{
     text-decoration: none;
     float: left;
     padding: 10px;
-    background-color: #004445;
     width: 20%;
     text-align: center;
     transition: 0.5s;
@@ -91,7 +84,6 @@ header .pages-container{
     text-decoration: none;
     float: left;
     padding: 10px;
-    background-color: #004445;
     width: 20%;
     text-align: center;
     transition: 0.5s;
@@ -101,7 +93,6 @@ header .pages-container{
     text-decoration: none;
     float: left;
     padding: 10px;
-    background-color: #004445;
     width: 20%;
     text-align: center;
     transition: 0.5s;
@@ -142,64 +133,103 @@ header .acerca:hover{
     transition: 0.5s;
 }
 
-/* Primera parte */
+/* Primera parte 
 .home-container{
+    margin: auto;
     border: 0px solid black;
     border-radius: 16px;
-    width: 45%;
+    width: 90%;
+    margin-top: 20px;
     padding: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) ;
     margin-bottom: 20px;
 }
-
-
-.main-home-container{
-    padding: 20px;
-    background-image: url(https://cdn.discordapp.com/attachments/1231410669476118648/1244135092553650270/240_F_804510977_AAZl4yz9RCa6nHfLCawUZqXA8IMMbgpf.png?ex=66540298&is=6652b118&hm=801e9a9fbc359847fabe5138a4356872f740193c1024ff8e168de416aff28fe1&);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.home-container span{
-    color: #0070FF ;
-    background-color: #F9F9F9;
-}
-.home-container h1{
-    padding: 29px;
+*/
+.nav-bar{
+    pointer-events: none;
+    margin: 25px;
+    margin-bottom:0px;
+    padding: 8px;
+    width: auto;
+    height: 25px;
+    border-radius: 16px 16px 0px 0px;
+    background-color: #333;
     color: #ffffff;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 100) ;
-    background-color: #F9F9F9;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    letter-spacing: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10) ;
 }
 
-#azul{
-    background-color: #F9F9F9;
-    font-size: 40px;
-    letter-spacing: 0.5px;
+#nav-bar-title{
+    background-color: #333;
+    color: #ffffff;
+    padding: 2px;
 }
 
-#naranja{
-    background-color: #F9F9F9;
-    font-size: 30px;
-    padding: 10px;
-    
+.cerrar{
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #3d3d3d;
+    border-radius: 15px;
 }
 
-#problem{
-    background-color: #F9F9F9;
-    font-size: 25px;
-    padding: 10px;
+.cerrar div{
+    padding: 0px 16px;
+    float: right;
+    letter-spacing: 10px;
+}
+.terminal-body{
+    margin: 25px;
+    margin-top: 0px;
+    background-color: #3d3d3d;
+    height: auto;
+    width: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10) ;
+    color: #ffffff;
+    padding: 15px;
 }
 
+.cat{
+    margin-top: 20px;
+    margin-left: 16px;
+    font-weight: bold;
+    font-size:24px ;
+    text-align: center;
 
-.asd{
+}
+
+.cat span{
+    color: #14d0da;
+    font-size: 39px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.cat h1{
+    font-weight: 900;
+    padding: 29px;
+    color: #14d0da;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5) ;
+    text-align: center;
+    letter-spacing: 17px;
+    text-transform: uppercase;
+}
+
+.cat p{
+    font-size: 32px;
+}
+.info-container-slog{
+    width: auto;
     background-color: #004445;
     color: #F9F9F9;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
 }
-.asd p{
+.info-container-slog ul,li{
+    padding-left:5px;
+    padding-right:5px;
+    display: inline;
     background-color: #004445;
     color: #F9F9F9;
     font-weight: bold;
@@ -207,6 +237,40 @@ header .acerca:hover{
     text-decoration: none;
 }
 
-.asd i{
+.info-container-slog span{
+    background-color: #004445;
     text-decoration: none;
+}
+
+.container-2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 900px;
+    height: auto;
+    margin: 45px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 22px;
+    font-size: large;
+}
+
+.container-2 h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #07575B;
+    text-align: center;
+}
+
+.container-2 p{
+    padding: 10px;
+    line-height: 42px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #333;
+    text-align: justify;
+}
+
+.container-2 span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #333;
+    font-weight: bolder;
 }
