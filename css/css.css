@@ -22,6 +22,10 @@ opc 1   ------------------------- USADO en el header
 6. Botones de navegación: #F7D68E
 */
 
+a{
+    text-decoration: none;
+}
+
 
 *{
     font-family: 'Courier New', Courier, monospace;
@@ -33,6 +37,7 @@ body{
     background-color: #F9F9F9;
 }
 
+
 .pages-container button{
     border: 0px;
     text-decoration: none;
@@ -43,7 +48,7 @@ body{
 
 .top-head header{
     background-color: #07575B;
-    width: 100%;
+    width: auto;
     padding: 40px;
 }
 
@@ -147,7 +152,7 @@ header .acerca:hover{
 */
 .nav-bar{
     pointer-events: none;
-    margin: 25px;
+    margin: 105px;
     margin-bottom:0px;
     padding: 8px;
     width: auto;
@@ -180,23 +185,37 @@ header .acerca:hover{
     letter-spacing: 10px;
 }
 .terminal-body{
-    margin: 25px;
+    margin: 105px;
     margin-top: 0px;
     background-color: #3d3d3d;
     height: auto;
     width: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 10) ;
     color: #ffffff;
-    padding: 15px;
+    padding: 25px;
 }
 
+#contactaunxp{
+    padding: 2px;
+    text-decoration: none; 
+    border-bottom: 3px solid #f2f2f2; 
+    background-color: #585858;
+    padding-bottom:5px; 
+    color: #f2f2f2;
+}
+
+
 .cat{
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 16px;
     font-weight: bold;
-    font-size:24px ;
+    font-size:18px ;
     text-align: center;
-
+    background-color: #63626257;
+    border-left: 2px solid whitesmoke; 
+    padding-bottom: 29px;
+    padding-top: 20px;
+    padding: 20px;
 }
 
 .cat span{
@@ -207,7 +226,7 @@ header .acerca:hover{
 }
 .cat h1{
     font-weight: 900;
-    padding: 29px;
+    padding: 26x;
     color: #14d0da;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5) ;
     text-align: center;
@@ -243,10 +262,9 @@ header .acerca:hover{
 }
 
 .container-2{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 900px;
     height: auto;
-    margin: 45px;
+    margin: auto;
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -256,21 +274,21 @@ header .acerca:hover{
 }
 
 .container-2 h1{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Space Mono", monospace;
     color: #07575B;
     text-align: center;
 }
 
 .container-2 p{
+    font-family: Muli, sans-serif;
     padding: 10px;
-    line-height: 42px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 24px;
     color: #333;
     text-align: justify;
 }
 
 .container-2 span{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Muli, sans-serif ;
     color: #333;
     font-weight: bolder;
 }
